@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    background-image: url(images/bg-desktop.svg);
+    background-color: #674BB2 ;
+    padding-left: 5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.principal_logo_imagem {
+    width: 190px;
+    padding-top: 4%;
+
+}
+
+.principal_conteudo {
+    display: flex;
+    gap: 160px;
+}
+
+.principal_conteudo_imagem_img {
+    padding-top: 8%;
+    width: 630px;
+}
+
+.principal_conteudo_texto {
+    font-family: Roboto;
+    color: white;
+    margin-top: 8%;
+    width: 32%;
+}
+
+.principal_conteudo_texto p {
+    padding-top: 6%;
+    margin-bottom: 50px;
+}
+
+.principal_conteudo_texto_registra  {
+    background-color: white;
+    width: fit-content;
+    margin-top: 23px;
+    padding: 16px 60px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 9px black ;
+    text-decoration: none;
+    color: #674BB2;
+    transition: 400ms;
+    display: block;
+}
+
+.principal_conteudo_texto_registra:hover {
+    background-color: #674BB2;
+    color: white;
+    scale: 1.05;
+}
+
+
